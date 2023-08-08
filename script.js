@@ -139,6 +139,72 @@ tl.from("#right2",{
     }
 })
 
+
+
+// ________________ ✅✅ Page3 ✅✅______________________
+
+
+tl.from("#top3>h1,#top3>p",{
+    y:200,
+    duration:0.7,
+    delay:0.3,
+    stagger:0.4,
+    opacity:0,
+    scrollTrigger:{
+        trigger:"#top3",
+        scroller:"#main",
+        markers:true,
+        start:"top 80%",
+        end:"top 70%",
+        scrub:2,
+    }
+})
+tl.from("#bottom3Left",{
+    x:-200,
+    duration:0.7,
+    delay:0.3,
+    stagger:0.4,
+    opacity:0,
+    scrollTrigger:{
+        trigger:"#bottom3Left",
+        scroller:"#main",
+        markers:true,
+        start:"top 80%",
+        end:"top 70%",
+        scrub:2,
+    }
+})
+tl.from("#bottom3Right",{
+    x:200,
+    duration:0.7,
+    delay:0.3,
+    stagger:0.4,
+    opacity:0,
+    scrollTrigger:{
+        trigger:"#bottom3Right",
+        scroller:"#main",
+        markers:true,
+        start:"top 80%",
+        end:"top 70%",
+        scrub:2,
+    }
+})
+tl.from("#bottom3Left img",{
+    y:600,
+    duration:0.7,
+    delay:1.4,
+    stagger:0.4,
+    opacity:0,
+    scrollTrigger:{
+        trigger:"#bottom3Left",
+        scroller:"#main",
+        // markers:true,
+        start:"top 80%",
+        end:"top 70%",
+        scrub:2,
+    }
+})
+
 // ________________ ✅✅ Page4 ✅✅______________________
 
 
@@ -327,6 +393,39 @@ tl.from("#main8 img",{
 
 // ________________ ✅✅ Page9 ✅✅______________________
 
+
+
+tl.from("#top9head h1",{
+    x:100,
+    duration:1.3,
+    delay:0.3,
+    stagger:0.6,
+    opacity:0,
+    scrollTrigger:{
+        trigger:"#top9head",
+        scroller:"#main",
+        // markers:true,
+        start:"top 80%",
+        end:"top 70%",
+        scrub:2,
+    }
+})
+
+tl.from("#top9img img",{
+    scale:0,
+    duration:1.3,
+    delay:0.3,
+    stagger:0.6,
+    opacity:0,
+    scrollTrigger:{
+        trigger:"#top9img",
+        scroller:"#main",
+        // markers:true,
+        start:"top 80%",
+        end:"top 70%",
+        scrub:2,
+    }
+})
 
 
 tl.from("#left9Data h4,#left9Data h1,#left9Data p,#left9Btn button",{
