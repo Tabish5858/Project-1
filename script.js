@@ -39,6 +39,8 @@ const startContinuousRotation = () => {
             if (document.readyState === "complete") {
                 tl.pause();
                 document.getElementById("preloader").style.display = "none";
+        document.getElementById("preloader").style.transition = "0.6 ease-in";
+
             }
         }
     });
