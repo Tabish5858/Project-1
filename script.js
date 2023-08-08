@@ -39,8 +39,6 @@ const startContinuousRotation = () => {
             if (document.readyState === "complete") {
                 tl.pause();
                 document.getElementById("preloader").style.display = "none";
-        document.getElementById("preloader").style.transition = "0.6 ease-in";
-
             }
         }
     });
@@ -54,6 +52,7 @@ if (document.readyState === "complete") {
     window.addEventListener('load', () => {
         startContinuousRotation();
         document.getElementById("preloader").style.display = "none";
+        document.getElementById("preloader").style.transition = "0.6 ease-in";
     });
 }
 
@@ -285,6 +284,44 @@ tl.from(".main7Box",{
         scrub:2,
     }
 })
+
+
+// ________________ ✅✅ Page8 ✅✅______________________
+
+
+
+tl.from("#page8 h1",{
+    x:200,
+    duration:1.7,
+    delay:0.3,
+    stagger:0.6,
+    opacity:0,
+    scrollTrigger:{
+        trigger:"#page8 h1",
+        scroller:"#main",
+        // markers:true,
+        start:"top 70%",
+        end:"top 60%",
+        scrub:2,
+    }
+})
+
+tl.from("#main8 img",{
+    y:200,
+    duration:1.7,
+    delay:0.3,
+    stagger:0.6,
+    opacity:0,
+    scrollTrigger:{
+        trigger:"#main8 img",
+        scroller:"#main",
+        // markers:true,
+        start:"top 70%",
+        end:"top 60%",
+        scrub:2,
+    }
+})
+
 
 
 
