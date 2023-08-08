@@ -28,29 +28,55 @@ ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
 ScrollTrigger.refresh();
 
 
-var tl =gsap.timeline()
+const tl = gsap.timeline();
 
+// Function to start continuous rotation animation
+const startContinuousRotation = () => {
+    tl.to("#page1", {
+        y: "0vh",
+        duration: 1,
+        onComplete: () => {
+            if (document.readyState === "complete") {
+                tl.pause();
+                document.getElementById("preloader").style.display = "none";
+            }
+        }
+    });
+};
 
+// Check if the page has fully loaded
+if (document.readyState === "complete") {
+    startContinuousRotation();
+    document.getElementById("preloader").style.display = "none";
+} else {
+    window.addEventListener('load', () => {
+        startContinuousRotation();
+        document.getElementById("preloader").style.display = "none";
+    });
+}
 
-tl.to("#page1",{
-    y:"100vh",
-    scale:0.6,
-    duration:0
-})
-tl.to("#page1",{
-    y:"30vh",
-    duration:1,
-    rotate:360,
-    delay:0.6,
-})
-window.addEventListener('load',() =>{
-  tl.to("#page1",{
-    y:"0vh",
-    rotate:720,
-    scale:1,
-    duration:0.6,
-});
-})
+// tl.to("#page1",{
+//     y:"100vh",
+//     scale:0.6,
+//     duration:0
+// })
+// tl.to("#page1",{
+//     y:"30vh",
+//     duration:1,
+//     rotate:360,
+//     delay:0.6,
+//     repeat:5,
+// })
+
+// window.addEventListener('load',() =>{
+//   tl.to("#page1",{
+//     y:"0vh",
+//     rotate:720,
+//     scale:1,
+//     duration:0.6,
+// });
+// })
+
 
 // ________________ ✅✅ Page1 ✅✅______________________
 
