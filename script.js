@@ -120,7 +120,7 @@ tl.from("#left2>h1,#left2>p",{
         // markers:true,
         start:"top 80%",
         end:"top 70%",
-        scrub:2,
+        // scrub:2,
     }
 })
 tl.from("#right2",{
@@ -135,7 +135,7 @@ tl.from("#right2",{
         // markers:true,
         start:"top 80%",
         end:"top 70%",
-        scrub:2,
+        // scrub:2,
     }
 })
 
@@ -153,10 +153,10 @@ tl.from("#top3>h1,#top3>p",{
     scrollTrigger:{
         trigger:"#top3",
         scroller:"#main",
-        markers:true,
+        // markers:true,
         start:"top 80%",
         end:"top 70%",
-        scrub:2,
+        // scrub:2,
     }
 })
 tl.from("#bottom3Left",{
@@ -168,10 +168,10 @@ tl.from("#bottom3Left",{
     scrollTrigger:{
         trigger:"#bottom3Left",
         scroller:"#main",
-        markers:true,
+        // markers:true,
         start:"top 80%",
         end:"top 70%",
-        scrub:2,
+        // scrub:2,
     }
 })
 tl.from("#bottom3Right",{
@@ -183,10 +183,10 @@ tl.from("#bottom3Right",{
     scrollTrigger:{
         trigger:"#bottom3Right",
         scroller:"#main",
-        markers:true,
+        // markers:true,
         start:"top 80%",
         end:"top 70%",
-        scrub:2,
+        // scrub:2,
     }
 })
 tl.from("#bottom3Left img",{
@@ -201,7 +201,7 @@ tl.from("#bottom3Left img",{
         // markers:true,
         start:"top 80%",
         end:"top 70%",
-        scrub:2,
+        // scrub:2,
     }
 })
 
@@ -221,7 +221,7 @@ tl.from(".page4Box",{
         // markers:true,
         start:"top 140%",
         end:"top 135%",
-        scrub:2,
+        // scrub:2,
     }
 })
 
@@ -241,7 +241,7 @@ tl.from(".left5CheckBox",{
         // markers:true,
         start:"top 50%",
         end:"top 40%",
-        scrub:2,
+        // scrub:2,
     }
 })
 
@@ -257,7 +257,7 @@ tl.from("#right5 h4,#right5 h1,#right5 input,#right5 button",{
         // markers:true,
         start:"top 50%",
         end:"top 40%",
-        scrub:2,
+        // scrub:2,
     }
 })
 
@@ -278,7 +278,7 @@ tl.from("#head6",{
         // markers:true,
         start:"top 80%",
         end:"top 70%",
-        scrub:2,
+        // scrub:2,
     }
 })
 tl.from("#left6>img",{
@@ -293,7 +293,7 @@ tl.from("#left6>img",{
         // markers:true,
         start:"top 80%",
         end:"top 70%",
-        scrub:2,
+        // scrub:2,
     }
 })
 
@@ -309,7 +309,7 @@ tl.from("#right6Head img,#right6Head h1,#right6Data,#right6Btn",{
         // markers:true,
         start:"top 75%",
         end:"top 70%",
-        scrub:2,
+        // scrub:2,
     }
 })
 
@@ -331,7 +331,7 @@ tl.from("#page7Head",{
         // markers:true,
         start:"top 90%",
         end:"top 80%",
-        scrub:2,
+        // scrub:2,
     }
 })
 
@@ -347,7 +347,7 @@ tl.from(".main7Box",{
         // markers:true,
         start:"top 80%",
         end:"top 70%",
-        scrub:2,
+        // scrub:2,
     }
 })
 
@@ -368,7 +368,7 @@ tl.from("#page8 h1",{
         // markers:true,
         start:"top 70%",
         end:"top 60%",
-        scrub:2,
+        // scrub:2,
     }
 })
 
@@ -384,7 +384,7 @@ tl.from("#main8 img",{
         // markers:true,
         start:"top 70%",
         end:"top 60%",
-        scrub:2,
+        // scrub:2,
     }
 })
 
@@ -407,7 +407,7 @@ tl.from("#top9head h1",{
         // markers:true,
         start:"top 80%",
         end:"top 70%",
-        scrub:2,
+        // scrub:2,
     }
 })
 
@@ -423,7 +423,7 @@ tl.from("#top9img img",{
         // markers:true,
         start:"top 80%",
         end:"top 70%",
-        scrub:2,
+        // scrub:2,
     }
 })
 
@@ -440,7 +440,7 @@ tl.from("#left9Data h4,#left9Data h1,#left9Data p,#left9Btn button",{
         // markers:true,
         start:"top 80%",
         end:"top 70%",
-        scrub:2,
+        // scrub:2,
     }
 })
 
@@ -455,6 +455,6 @@ tl.from("#bottom9Right img",{
         // markers:true,
         start:"top 80%",
         end:"top 70%",
-        scrub:2,
+        // scrub:2,
     }
 })
